@@ -283,3 +283,52 @@ li {
     padding-top: 34px;
   }
   /* ===== Calculator Style End */
+
+  /* ===== Team Style Start ===== */
+.team {
+    padding-bottom: 88px;
+  }
+  .team_wrapper {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .team-1 {
+    background-image: url(../images/team-1.png);
+  }
+  .team-2 {
+    background-image: url(../images/team-2.png);
+  }
+  .team-3 {
+    background-image: url(../images/team-3.png);
+  }
+  .team-4 {
+    background-image: url(../images/team-4.png);
+  }
+  .team-5 {
+    background-image: url(../images/team-5.png);
+  }
+  .team-6 {
+    background-image: url(../images/team-6.png);
+  }
+  .team_item {
+    width: 326px;
+    height: 272px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .team_item h3,
+  p {
+    padding: 0 0 16px 19px;
+  }
+  /* ===== Team Style End ===== */
+
