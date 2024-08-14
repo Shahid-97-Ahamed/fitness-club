@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* ===== Common Style Start ===== */
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.sub_heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.sub_para {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+}
+/* ===== Common Style End ===== */
+
+/* ===== Navbar Style Start ====== */
+.navbar {
+  padding-top: 57px;
+}
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_text {
+  color: #e6533c;
+  font-size: 36px;
+  font-weight: 800;
+}
+.menu {
+  padding: 4px;
+  border: 1px inset rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  column-gap: 47px;
+}
+.menu ul li {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.active {
+  padding: 8px 20px;
+  background-color: #e6533c;
+  border-radius: 48px;
+}
+.bars {
+  display: none;
+}
+/* ===== Navbar Style End ====== */
+
+/* ===== Banner Style Start ===== */
