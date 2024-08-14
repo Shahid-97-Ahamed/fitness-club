@@ -219,3 +219,67 @@ li {
     flex-wrap: wrap;
   }
   /* ===== Training Style End ===== */
+
+  /* ===== Calculator Style Start */
+.bmi_calculator {
+    padding-bottom: 88px;
+  }
+  .calc {
+    background-color: #222222;
+  }
+  .calculator_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  .calculator_table h4 {
+    font-size: 28px;
+    padding-bottom: 52px;
+  }
+  .calculator_fields {
+    width: 577px;
+  }
+  .bmi_table {
+    border-collapse: collapse;
+    color: #ffffff;
+  }
+  .bmi_table tr,
+  th,
+  td {
+    padding: 20px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .calculator_fields h2 {
+    font-size: 28px;
+  }
+  .calculator_fields p {
+    padding: 14px 0 34px 0;
+  }
+  .input_fields {
+    width: 577px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  .input_fields input,
+  select,
+  option {
+    padding: 13px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+  }
+  .claculate_btn {
+    padding-top: 34px;
+  }
+  /* ===== Calculator Style End */
