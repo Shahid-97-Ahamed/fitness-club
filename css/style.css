@@ -88,3 +88,52 @@ li {
 /* ===== Navbar Style End ====== */
 
 /* ===== Banner Style Start ===== */
+.banner {
+    padding: 32px 0 100px 0;
+  }
+  .banner_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 54px;
+    gap: 10px;
+  }
+  .banner_details {
+    width: 520px;
+  }
+  .banner_details h1 {
+    color: #ffffff;
+    font-size: 78px;
+    font-weight: 900;
+  }
+  .banner_details p {
+    padding: 28px 0;
+  }
+  .unique_heading {
+    font-family: "Miama";
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .buttons button {
+    padding: 16px 46px;
+    border-radius: 42px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+  }
+  .club_btn {
+    background-color: #e6533c;
+    border: 1px solid transparent;
+  }
+  .download_btn {
+    border: 1px solid #ffffff;
+    background: none;
+  }
+  /* ===== Banner Style End ===== */
