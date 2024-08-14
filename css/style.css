@@ -204,3 +204,18 @@ li {
     overflow: hidden;
   }
   /* ===== Extra Run Style End ===== */
+
+  /* ===== Training Style Start ===== */
+.training {
+    padding-bottom: 88px;
+  }
+  .training_heading {
+    width: 671px;
+    padding-bottom: 58px;
+  }
+  .training_wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* ===== Training Style End ===== */
